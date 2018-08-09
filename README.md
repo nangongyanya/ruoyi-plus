@@ -22,36 +22,6 @@
 15. 在线构建器：拖动表单元素生成相应的HTML代码。
 16. 连接池监视：监视当期系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。
 
-## 演示图
-
-<table>
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/25b5e333768d013d45a990c152dbe4d9d6e.jpg"/></td>
-        <td><img src="https://static.oschina.net/uploads/space/2018/0728/114553_jBTY_1438828.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://static.oschina.net/uploads/space/2018/0728/114830_eIHp_1438828.png"/></td>
-        <td><img src="https://static.oschina.net/uploads/space/2018/0728/114854_Y5a2_1438828.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://static.oschina.net/uploads/space/2018/0728/114920_P8qv_1438828.png"/></td>
-        <td><img src="https://static.oschina.net/uploads/space/2018/0728/114946_O3jx_1438828.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://static.oschina.net/uploads/space/2018/0728/115022_1Tnm_1438828.png"/></td>
-        <td><img src="https://static.oschina.net/uploads/space/2018/0728/115051_XvMW_1438828.png"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://static.oschina.net/uploads/space/2018/0728/115117_9TZ3_1438828.png"/></td>
-        <td><img src="https://static.oschina.net/uploads/space/2018/0728/115130_a5xO_1438828.png"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://static.oschina.net/uploads/space/2018/0728/115151_EuYC_1438828.png"/></td>
-        <td><img src="https://static.oschina.net/uploads/space/2018/0728/115212_QybT_1438828.png"/></td>
-    </tr>
-</table>
-
-
 ## 若依交流群
 
 QQ群： [![加入QQ群](https://img.shields.io/badge/QQ群-1389287-blue.svg)](http://shang.qq.com/wpa/qunwpa?idkey=4a9a52f5d9d9c65a8ea67859170ba835d95fc50ec74a2a722293e60e036b5016) 或 [![加入QQ群](https://img.shields.io/badge/QQ群-1389287-blue.svg)](https://jq.qq.com/?_wv=1027&k=5HBAaYN)，推荐点击按钮入群，当然如果无法成功操作，请自行搜索群号`1389287`进行添加

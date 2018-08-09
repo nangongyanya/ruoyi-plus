@@ -1,6 +1,6 @@
 ## 平台简介
 
-源码来自模板平台“若依”，演示地址：http://www.ruoyi.club。
+源码来自模板平台“若依”，演示地址：http://ruoyi.club/login。
 登录账号、密码：admin/admin123
 
 ## 内置功能

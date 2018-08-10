@@ -24,7 +24,7 @@ import com.ruoyi.framework.web.domain.AjaxResult;
 public class LoginController extends BaseController
 {
 
-    @GetMapping("/login")
+    @GetMapping("/gu_ess")
     public String login(HttpServletRequest request, HttpServletResponse response)
     {
         // 如果是Ajax请求，返回Json字符串。
@@ -33,10 +33,10 @@ public class LoginController extends BaseController
             return ServletUtils.renderString(response, "{\"code\":\"1\",\"msg\":\"未登录或登录超时。请重新登录\"}");
         }
 
-        return "login";
+        return "gu_ess";
     }
 
-    @PostMapping("/login")
+    @PostMapping("/gu_ess")
     @ResponseBody
     public AjaxResult ajaxLogin(String username, String password, Boolean rememberMe)
     {

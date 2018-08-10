@@ -22,7 +22,7 @@ function login() {
     var rememberMe = $("input[name='rememberme']").is(':checked');
     $.ajax({
         type: "post",
-        url: ctx + "login",
+        url: ctx + "gu_ess",
         data: {
             "username": username,
             "password": password,

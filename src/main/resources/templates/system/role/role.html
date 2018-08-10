@@ -18,7 +18,7 @@
 								权限字符：<input type="text" name="roleKey"/>
 							</li>
 							<li>
-								角色状态：<select name="status" th:with="type=${@dict.getType('sys_normal_disable')}">
+								角色状态：<select name="status" th:with="type=${@dict.getType('sys_normal_disable')}" onchange="$.table.search()">
 									<option value="">所有</option>
 									<option th:each="e : ${type}" th:text="${e['dictLabel']}" th:value="${e['dictValue']}"></option>
 								</select>

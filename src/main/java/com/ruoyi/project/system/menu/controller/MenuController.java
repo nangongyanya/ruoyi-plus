@@ -47,6 +47,7 @@ public class MenuController extends BaseController
     @ResponseBody
     public List<Menu> list(Menu menu)
     {
+        System.out.println(menu.getVisible());
         List<Menu> menuList = menuService.selectMenuList(menu);
         return menuList;
     }

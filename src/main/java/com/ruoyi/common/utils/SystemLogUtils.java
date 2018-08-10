@@ -13,6 +13,7 @@ import eu.bitwalker.useragentutils.UserAgent;
  * 记录用户日志信息
  * 
  * @author ruoyi
+ * @author Rimon
  */
 public class SystemLogUtils
 {
@@ -25,7 +26,7 @@ public class SystemLogUtils
      * 注意操作如下： loginError 登录失败 loginSuccess 登录成功 passwordError 密码错误 changePassword 修改密码 changeStatus 修改状态
      *
      * @param username
-     * @param op
+     * @param status
      * @param msg
      * @param args
      */

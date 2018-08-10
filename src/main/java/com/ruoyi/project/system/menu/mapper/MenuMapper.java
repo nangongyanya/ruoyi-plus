@@ -37,7 +37,7 @@ public interface MenuMapper
 
     /**
      * 查询系统菜单列表
-     * 
+     *
      * @param menu 菜单信息
      * @return 菜单列表
      */

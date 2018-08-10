@@ -2,7 +2,7 @@
 
 源码来自模板平台“若依”。
 码云地址：https://gitee.com/y_project/RuoYi
-演示地址：http://ruoyi.club/login。
+演示地址：http://ruoyi.club/login
 登录账号、密码：admin/admin123
 
 ## 内置功能

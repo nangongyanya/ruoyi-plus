@@ -10,6 +10,7 @@ import com.ruoyi.framework.web.controller.BaseController;
 import com.ruoyi.project.system.menu.domain.Menu;
 import com.ruoyi.project.system.menu.service.IMenuService;
 import com.ruoyi.project.system.user.domain.User;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * 首页 业务处理
@@ -17,6 +18,7 @@ import com.ruoyi.project.system.user.domain.User;
  * @author ruoyi
  */
 @Controller
+@RequestMapping("/system")
 public class IndexController extends BaseController
 {
     @Autowired
@@ -50,7 +52,7 @@ public class IndexController extends BaseController
      * @param mmap
      * @return
      */
-    @GetMapping("/system/main")
+    @GetMapping("/main")
     public String main(ModelMap mmap)
     {
         mmap.put("version", ruoYiConfig.getVersion());

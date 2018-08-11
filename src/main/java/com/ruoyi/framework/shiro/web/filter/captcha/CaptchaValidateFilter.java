@@ -12,7 +12,7 @@ import com.ruoyi.common.utils.security.ShiroUtils;
 /**
  * 验证码过滤器
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class CaptchaValidateFilter extends AccessControlFilter
 {
@@ -49,8 +49,9 @@ public class CaptchaValidateFilter extends AccessControlFilter
     protected boolean isAccessAllowed(ServletRequest request, ServletResponse response, Object mappedValue)
             throws Exception
     {
+        System.out.println("验证码验证！");
         HttpServletRequest httpServletRequest = (HttpServletRequest) request;
-        // 验证码禁用 或不是表单提交 允许访问
+        // 验证码禁用 或 不是表单提交 允许访问
         if (captchaEbabled == false || !"post".equals(httpServletRequest.getMethod().toLowerCase()))
         {
             return true;

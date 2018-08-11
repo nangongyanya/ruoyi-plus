@@ -31,7 +31,8 @@ function login() {
         },
         success: function(r) {
             if (r.code == 0) {
-                location.href = ctx + 'index';
+                // location.href = ctx + 'index';
+                location.href = '/system/index';
             } else {
             	$.modal.closeLoading();
             	$('.imgcode').click();

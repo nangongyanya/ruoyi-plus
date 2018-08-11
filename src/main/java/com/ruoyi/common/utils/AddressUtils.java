@@ -1,9 +1,12 @@
 package com.ruoyi.common.utils;
 
 import com.alibaba.fastjson.JSONObject;
-import com.ruoyi.common.utils.http.HttpUtils;
+
+import java.util.Arrays;
+import com.ruoyi.common.utils.datx.City;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.util.ResourceUtils;
 
 /**
  * 获取地址类
@@ -21,16 +24,16 @@ public class AddressUtils
         String address = "";
         try
         {
-            address = HttpUtils.sendPost(IP_URL, "ip=" + ip);
-            JSONObject json = JSONObject.parseObject(address);
-            JSONObject object = json.getObject("data", JSONObject.class);
-            String region = object.getString("region");
-            String city = object.getString("city");
-            address = region + " " + city;
+            // address = HttpUtils.sendPost(IP_URL, "ip=" + ip);
+            String filePath = ResourceUtils.getURL("classpath:").getPath() + "datx/17monipdb.datx";
+            filePath=filePath.substring(1,filePath.length());
+            City city = new City(filePath);
+            String[] json=city.find(ip);
+            address =json[1]+" "+json[2];
         }
         catch (Exception e)
         {
-            log.error("获取地理位置异常:", e);
+            log.error("根据IP获取所在位置----------错误消息：" + e.getMessage());
         }
         return address;
     }

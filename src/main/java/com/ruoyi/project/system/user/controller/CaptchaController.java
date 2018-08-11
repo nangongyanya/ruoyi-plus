@@ -19,7 +19,7 @@ import com.ruoyi.framework.web.controller.BaseController;
 /**
  * 图片验证码（支持算术形式）
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Controller
 @RequestMapping("/captcha")
@@ -64,6 +64,7 @@ public class CaptchaController extends BaseController
                 capStr = code = captchaProducer.createText();
                 bi = captchaProducer.createImage(capStr);
             }
+            // code:验证码结果
             session.setAttribute(Constants.KAPTCHA_SESSION_KEY, code);
             out = response.getOutputStream();
             ImageIO.write(bi, "jpg", out);

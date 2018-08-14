@@ -1,6 +1,6 @@
 package ${package}.service;
 
-import ${package}.domain.${className};
+import ${package}.domain.${capitalizeClassName};
 import java.util.List;
 
 /**
@@ -9,7 +9,7 @@ import java.util.List;
  * @author ${author}
  * @date ${datetime}
  */
-public interface I${className}Service 
+public interface I${capitalizeClassName}Service
 {
 	/**
      * 查询${tableComment}信息
@@ -17,31 +17,31 @@ public interface I${className}Service
      * @param ${primaryKey.attrname} ${tableComment}ID
      * @return ${tableComment}信息
      */
-	public ${className} select${className}ById(${primaryKey.attrType} ${primaryKey.attrname});
+	public ${capitalizeClassName} select${capitalizeClassName}ById(${primaryKey.attrType} ${primaryKey.attrname});
 	
 	/**
      * 查询${tableComment}列表
      * 
-     * @param ${classname} ${tableComment}信息
+     * @param ${uncapitalizeClassname} ${tableComment}信息
      * @return ${tableComment}集合
      */
-	public List<${className}> select${className}List(${className} ${classname});
+	public List<${capitalizeClassName}> select${capitalizeClassName}List(${capitalizeClassName} ${uncapitalizeClassname});
 	
 	/**
      * 新增${tableComment}
      * 
-     * @param ${classname} ${tableComment}信息
+     * @param ${uncapitalizeClassname} ${tableComment}信息
      * @return 结果
      */
-	public int insert${className}(${className} ${classname});
+	public int insert${capitalizeClassName}(${capitalizeClassName} ${uncapitalizeClassname});
 	
 	/**
      * 修改${tableComment}
      * 
-     * @param ${classname} ${tableComment}信息
+     * @param ${uncapitalizeClassname} ${tableComment}信息
      * @return 结果
      */
-	public int update${className}(${className} ${classname});
+	public int update${capitalizeClassName}(${capitalizeClassName} ${uncapitalizeClassname});
 		
 	/**
      * 删除${tableComment}信息
@@ -49,6 +49,6 @@ public interface I${className}Service
      * @param ids 需要删除的数据ID
      * @return 结果
      */
-	public int delete${className}ByIds(String ids);
+	public int delete${capitalizeClassName}ByIds(String ids);
 	
 }

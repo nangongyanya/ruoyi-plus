@@ -1,27 +1,230 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fc1ca26-2606-40f4-a6d7-169986b57a99" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/datx/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/datx/Util.java" afterDir="false" />
+    <list default="true" id="c68724be-c8a5-4bfd-b2c3-2d48fbffbf62" name="Default" comment="代码生成功能修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/RuoYiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/RuoYiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/RuoYiServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/RuoYiServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/CommonMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/CommonMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/PermissionConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/PermissionConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/ScheduleConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/ScheduleConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/ShiroConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/ShiroConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/UserConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/UserConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/DemoModeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/DemoModeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/base/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/base/BaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/file/FileNameLengthLimitExceededException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/file/FileNameLengthLimitExceededException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/file/InvalidExtensionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/file/InvalidExtensionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/job/TaskException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/job/TaskException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/CaptchaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/CaptchaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/RoleBlockedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/RoleBlockedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserBlockedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserBlockedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserNotExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserNotExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserPasswordNotMatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserPasswordNotMatchException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserPasswordRetryLimitCountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserPasswordRetryLimitCountException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserPasswordRetryLimitExceedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserPasswordRetryLimitExceedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/support/CharsetKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/support/CharsetKit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/support/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/support/Convert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/support/StrFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/support/StrFormatter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/AddressUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/AddressUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/IpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/IpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/LogUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/LogUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/MapDataUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/MapDataUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/MessageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/MessageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/ServletUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/ServletUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/SystemLogUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/SystemLogUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/TreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/TreeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/bean/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/bean/BeanUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/file/FileUploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/file/FileUploadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/file/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/file/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/http/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/http/HttpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/poi/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/poi/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/security/PermissionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/security/PermissionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/security/ShiroUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/security/ShiroUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/spring/SpringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/spring/SpringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/xss/XssFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/xss/XssFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/xss/XssHttpServletRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/DsAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/DsAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Ds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Ds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Excel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Excel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/constant/BusinessStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/constant/BusinessStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/constant/BusinessType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/constant/BusinessType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/constant/DataSourceName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/constant/DataSourceName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/constant/OperatorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/constant/OperatorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/CaptchaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/CaptchaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/DruidConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/FilterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/GenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/GenConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/I18nConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/I18nConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/KaptchaTextCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/KaptchaTextCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ResourcesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ResourcesConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/RuoYiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/RuoYiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ScheduleConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ScheduleConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/datasource/DynamicDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/datasource/DynamicDataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/datasource/DynamicDataSourceContextHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/datasource/DynamicDataSourceContextHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/realm/UserRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/realm/UserRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/service/PasswordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/service/PasswordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/session/OnlineSessionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/session/OnlineSessionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/session/OnlineSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/session/OnlineSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/filter/LogoutFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/filter/LogoutFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/CaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/CaptchaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/filter/online/OnlineSessionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/filter/online/OnlineSessionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/filter/sync/SyncOnlineSessionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/filter/sync/SyncOnlineSessionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/session/OnlineWebSessionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/session/OnlineWebSessionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/session/SpringSessionValidationScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/session/SpringSessionValidationScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/domain/AjaxResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/domain/AjaxResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/domain/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/domain/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/exception/DefaultExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/exception/DefaultExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/page/PageDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/page/PageDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/page/TableDataInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/page/TableDataInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/page/TableSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/page/TableSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/service/ConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/service/ConfigService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/service/DictService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/service/DictService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/service/PermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/service/PermissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/common/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/common/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/druid/DruidController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/druid/DruidController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/controller/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/controller/JobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/controller/JobLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/controller/JobLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/domain/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/domain/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/domain/JobLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/domain/JobLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/mapper/JobLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/mapper/JobLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/mapper/JobMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/mapper/JobMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/service/IJobLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/service/IJobLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/service/IJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/service/IJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/service/JobLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/service/JobLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/service/JobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/service/JobServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/task/RyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/task/RyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/util/ScheduleJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/util/ScheduleJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/util/ScheduleRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/util/ScheduleRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/util/ScheduleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/util/ScheduleUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/logininfor/controller/LogininforController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/logininfor/controller/LogininforController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/logininfor/domain/Logininfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/logininfor/domain/Logininfor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/logininfor/mapper/LogininforMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/logininfor/mapper/LogininforMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/logininfor/service/ILogininforService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/logininfor/service/ILogininforService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/logininfor/service/LogininforServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/logininfor/service/LogininforServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/online/controller/UserOnlineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/online/controller/UserOnlineController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/online/domain/OnlineSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/online/domain/OnlineSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/online/domain/UserOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/online/domain/UserOnline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/online/mapper/UserOnlineMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/online/mapper/UserOnlineMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/online/service/IUserOnlineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/online/service/IUserOnlineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/online/service/UserOnlineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/online/service/UserOnlineServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/operlog/controller/OperlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/operlog/controller/OperlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/operlog/domain/OperLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/operlog/domain/OperLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/operlog/mapper/OperLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/operlog/mapper/OperLogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/operlog/service/IOperLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/operlog/service/IOperLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/operlog/service/OperLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/operlog/service/OperLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/config/controller/ConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/config/controller/ConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/config/domain/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/config/domain/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/config/mapper/ConfigMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/config/mapper/ConfigMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/config/service/ConfigServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/config/service/ConfigServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/config/service/IConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/config/service/IConfigService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/domain/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/domain/Dept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/mapper/DeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/mapper/DeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/service/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/service/DeptServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/service/IDeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/service/IDeptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/controller/DictDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/controller/DictDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/controller/DictTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/controller/DictTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/domain/DictData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/domain/DictData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/domain/DictType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/domain/DictType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/mapper/DictDataMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/mapper/DictDataMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/mapper/DictTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/mapper/DictTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/service/DictDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/service/DictDataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/service/DictTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/service/DictTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/service/IDictDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/service/IDictDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/service/IDictTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dict/service/IDictTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/domain/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/domain/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/mapper/MenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/service/IMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/service/IMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/service/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/service/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/notice/controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/notice/controller/NoticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/notice/domain/Notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/notice/domain/Notice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/notice/mapper/NoticeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/notice/mapper/NoticeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/notice/service/INoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/notice/service/INoticeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/notice/service/NoticeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/notice/service/NoticeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/domain/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/domain/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/mapper/PostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/mapper/PostMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/service/IPostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/service/IPostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/service/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/service/PostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/domain/RoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/domain/RoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/mapper/RoleMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/mapper/RoleMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/service/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/service/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/service/RoleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/ruoyi/gu_ess.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/ruoyi/gu_ess.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/monitor/operlog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/monitor/operlog/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/AddressUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/AddressUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/file/FileUploadUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/file/FileUploadUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/LogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/LogAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/ProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/domain/UserPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/domain/UserPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/domain/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/domain/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/domain/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/domain/UserStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/mapper/UserPostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/mapper/UserPostMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/mapper/UserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/mapper/UserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/build/BuildController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/build/BuildController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/controller/GenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/controller/GenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/domain/ColumnInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/domain/ColumnInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/domain/TableInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/domain/TableInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/mapper/GenMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/mapper/GenMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/service/GenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/service/GenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/service/IGenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/service/IGenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/util/GenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/util/GenUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/util/VelocityInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/util/VelocityInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/swagger/SwaggerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/swagger/SwaggerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/swagger/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/swagger/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/system/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/system/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/gu_ess.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/gu_ess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/html/add.html.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/html/add.html.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/html/edit.html.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/html/edit.html.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/html/list.html.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/html/list.html.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/java/Controller.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/java/Controller.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/java/Mapper.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/java/Mapper.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/java/Service.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/java/Service.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/java/ServiceImpl.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/java/ServiceImpl.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/java/domain.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/java/domain.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/sql/sql.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/sql/sql.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/xml/Mapper.xml.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/xml/Mapper.xml.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/SystemLogUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/SystemLogUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/CaptchaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/CaptchaConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/CaptchaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/CaptchaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/monitor/operlog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/monitor/operlog/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/mapper/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/mapper/DeptMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/service/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/service/DeptServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/controller/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/controller/GenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/controller/GenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/domain/TableInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/domain/TableInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/service/GenServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/service/GenServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/util/GenUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/util/GenUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/system/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/system/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/html/add.html.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/html/add.html.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/html/edit.html.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/html/edit.html.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/html/list.html.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/html/list.html.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/java/Controller.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/java/Controller.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/java/Mapper.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/java/Mapper.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/java/Service.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/java/Service.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/java/ServiceImpl.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/java/ServiceImpl.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/java/domain.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/java/domain.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/sql/sql.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/sql/sql.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/xml/Mapper.xml.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/xml/Mapper.xml.vm" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,191 +237,112 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/LoginController.java">
+    <leaf>
+      <file leaf-file-name="GenController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/controller/GenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            <state relative-caret-position="194">
+              <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Subject.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/subject/Subject.java">
+      <file leaf-file-name="IGenService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/service/IGenService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/service/GenServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="125" column="43" selection-start-line="125" selection-start-column="43" selection-end-line="125" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql.vm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/vm/sql/sql.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-200" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZipEntry.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../JDK/8131/JDK/src.zip!/java/util/zip/ZipEntry.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="129">
-              <caret line="331" column="9" selection-start-line="331" selection-start-column="9" selection-end-line="331" selection-end-column="9" />
+              <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DelegatingSubject.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/subject/support/DelegatingSubject.java">
+      <file leaf-file-name="Template.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/Template.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2196">
-              <caret line="257" column="16" selection-start-line="257" selection-start-column="16" selection-end-line="257" selection-end-column="16" />
+            <state relative-caret-position="129">
+              <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityUtils.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/SecurityUtils.java">
+      <file leaf-file-name="GenConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/GenConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ShiroConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-254">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsernamePasswordToken.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/authc/UsernamePasswordToken.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="183" column="11" selection-start-line="183" selection-start-column="11" selection-end-line="183" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3206">
-              <caret line="31" column="31" selection-start-line="31" selection-end-line="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServletUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/ServletUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gu_ess.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/gu_ess.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gu_ess.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/ruoyi/gu_ess.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-531">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="icheck.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/ajax/libs/iCheck/icheck.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="197" selection-start-line="5" selection-start-column="197" selection-end-line="5" selection-end-column="197" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="88" column="39" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CaptchaController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/CaptchaController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-736">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CaptchaConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/CaptchaConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="38" column="44" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2-sources.jar!/com/google/code/kaptcha/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2-sources.jar!/com/google/code/kaptcha/Producer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-131" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultKaptcha.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2-sources.jar!/com/google/code/kaptcha/impl/DefaultKaptcha.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
-              <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+            <state relative-caret-position="2">
+              <caret line="11" column="103" selection-start-line="11" selection-start-column="103" selection-end-line="11" selection-end-column="103" />
               <folding>
-                <element signature="e#2355#2356#0" expanded="true" />
-                <element signature="e#2412#2413#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2-sources.jar!/com/google/code/kaptcha/util/Config.java">
+      <file leaf-file-name="GenUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/util/GenUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+            <state relative-caret-position="196">
+              <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rml.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/file/rml.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="banner.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/banner.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="domain.java.vm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/vm/java/domain.java.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="1" column="8564" selection-start-line="1" selection-start-column="8564" selection-end-line="1" selection-end-column="8564" />
             </state>
           </provider>
         </entry>
@@ -226,8 +350,65 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+            <state relative-caret-position="25">
+              <caret line="1" column="5" selection-start-line="1" selection-end-line="1" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ShiroConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="250" column="38" lean-forward="true" selection-start-line="250" selection-start-column="38" selection-end-line="250" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/controller/MenuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JobController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/controller/JobController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-896">
+              <caret line="95" column="15" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AjaxResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/domain/AjaxResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -235,26 +416,82 @@
       <file leaf-file-name="CaptchaValidateFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="61" column="35" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="35" />
+            <state relative-caret-position="-1250">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccessControlFilter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/filter/AccessControlFilter.java">
+      <file leaf-file-name="dept.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/dept/dept.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1175" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/menu/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1275" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/domain/TableInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="85" column="36" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="36" />
+              <folding>
+                <element signature="e#1434#1435#0" expanded="true" />
+                <element signature="e#1466#1467#0" expanded="true" />
+                <element signature="e#1676#1677#0" expanded="true" />
+                <element signature="e#1720#1721#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java.vm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/vm/java/Controller.java.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/mapper/GenMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShiroConstants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/ShiroConstants.java">
+      <file leaf-file-name="GenMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/tool/GenMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-206">
+              <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gu_ess.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/gu_ess.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="121">
-              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+              <caret line="33" column="63" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaptchaConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/CaptchaConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="44" column="72" selection-start-line="44" selection-start-column="72" selection-end-line="44" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -263,26 +500,28 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/index</find>
-      <find>?v=2.3.0</find>
-      <find>/img/**</find>
-      <find>若依管理系统</find>
-      <find>MenuMapper</find>
-      <find>side-menu</find>
-      <find>login</find>
-      <find>/media</find>
-      <find>selectMenuVo</find>
-      <find>selectMenuList</find>
-      <find>/profile</find>
-      <find>ruoyi.prof</find>
-      <find>profile</find>
-      <find>captchaEbabled</find>
-      <find>/logout</find>
-      <find>i-checks</find>
-      <find>验证码错误</find>
+      <find>dept.setAncestors(ancestors);</find>
+      <find>验证码验证</find>
+      <find>@author Rimon</find>
+      <find>@author ruoyi</find>
+      <find>selectTableByName</find>
+      <find>selectGenVo</find>
+      <find>&quot;classname&quot;</find>
+      <find>className</find>
+      <find>${className}</find>
+      <find>uncapitalizeClassname</find>
+      <find>${uncapitalizeClassname}</find>
+      <find>${classname}</find>
+      <find>ruoyi</find>
+      <find>System.out.println</find>
     </findStrings>
     <replaceStrings>
-      <replace>系统</replace>
+      <replace>@author Rimon</replace>
+      <replace />
+      <replace>${capitalizeClassName}</replace>
+      <replace>${uncapitalizeClassName}</replace>
+      <replace>uncapitalizeClassname</replace>
+      <replace>${uncapitalizeClassname}</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -291,46 +530,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/application-druid.yml" />
-        <option value="$PROJECT_DIR$/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/post/mapper/PostMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/RuoYiApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/main.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/login.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/ShiroConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/domain/AjaxResult.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/system/post/post.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/include.html" />
-        <option value="$PROJECT_DIR$/sql/init.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/system/dict/type/type.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/system/dict/data/data.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/ruoyi/login.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/gu_ess.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/system/dept/dept.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/system/menu/menu.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/mapper/MenuMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/controller/MenuController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis/system/MenuMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/domain/Menu.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/system/role/role.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/system/user/user.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/SystemLogUtils.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/file/FileUploadUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/monitor/operlog/detail.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/AddressUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/ruoyi/gu_ess.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/CaptchaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/mapper/DeptMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/service/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/system/DeptMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/SystemLogUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/controller/GenController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/gu_ess.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/CaptchaConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/GenConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/vm/java/Controller.java.vm" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/domain/TableInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/util/GenUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/banner.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/controller/MenuController.java" />
       </list>
     </option>
   </component>
@@ -349,82 +565,61 @@
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -434,68 +629,30 @@
             </path>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-              <item name="captcha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -505,318 +662,57 @@
             </path>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
+              <item name="ruoyi-plus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="iCheck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ruoyi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RuoYi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="kaptcha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="kaptcha" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.penggle:kaptcha:2.3.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="kaptcha-2.3.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="kaptcha" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-core-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-core-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-core-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-core-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-core-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="authc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-core-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="subject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-core:1.4.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-core-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="subject" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-web:1.4.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-web:1.4.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-web-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-web:1.4.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-web-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-web:1.4.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-web-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-web:1.4.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-web-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-web:1.4.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-web-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RuoYi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.shiro:shiro-web:1.4.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="shiro-web-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -832,14 +728,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JavaDevelop\IntelliJProgram\RuoYi\src\main\resources" />
-      <recent name="D:\JavaDevelop\IntelliJProgram\RuoYi\src\main\java\com\ruoyi\common" />
-      <recent name="D:\JavaDevelop\IntelliJProgram\RuoYi\src\main\resources\static" />
-      <recent name="D:\JavaDevelop\IntelliJProgram\RuoYi\src\main\resources\static\js\plugins\vidbj" />
+      <recent name="D:\JavaDevelop\IntelliJProgram\ruoyi-plus\src\main\resources\static\media" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -906,132 +799,97 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4fc1ca26-2606-40f4-a6d7-169986b57a99" name="Default" comment="" />
-      <created>1533738840256</created>
+      <changelist id="c68724be-c8a5-4bfd-b2c3-2d48fbffbf62" name="Default" comment="" />
+      <created>1534246903522</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1533738840256</updated>
-      <workItem from="1533738841594" duration="6504000" />
-      <workItem from="1533778898029" duration="15352000" />
-      <workItem from="1533799296789" duration="3323000" />
-      <workItem from="1533812147775" duration="4270000" />
-      <workItem from="1533818409657" duration="11674000" />
-      <workItem from="1533866214424" duration="5818000" />
-      <workItem from="1533980965184" duration="6689000" />
+      <updated>1534246903522</updated>
+      <workItem from="1534246905476" duration="7139000" />
     </task>
-    <task id="LOCAL-00001" summary="字典管理修改">
-      <created>1533815709988</created>
+    <task id="LOCAL-00001" summary="代码生成功能修改">
+      <created>1534251451547</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1533815709988</updated>
+      <updated>1534251451547</updated>
     </task>
-    <task id="LOCAL-00002" summary="更新README">
-      <created>1533827825486</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1533827825486</updated>
-    </task>
-    <task id="LOCAL-00003" summary="README 更新">
-      <created>1533866366438</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1533866366438</updated>
-    </task>
-    <task id="LOCAL-00004" summary="README 更新">
-      <created>1533866524853</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1533866524853</updated>
-    </task>
-    <task id="LOCAL-00005" summary="状态选择框 选中后自动查询">
-      <created>1533867102191</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1533867102191</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53630000" />
+    <option name="totallyTimeSpent" value="7139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.329582" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8681672" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32905295" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25567323" />
-      <window_info anchor="bottom" id="Problems" order="11" />
-      <window_info anchor="right" id="Bean Validation" order="8" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3279743" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Messages" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.329582" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Problems" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.329582" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32905295" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8681672" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.329582" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.329582" />
-      <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Problems" order="11" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3279743" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25567323" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Problems" order="0" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="0" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.329582" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24962178" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1041,376 +899,260 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="字典管理修改" />
-    <MESSAGE value="更新README" />
-    <MESSAGE value="README 更新" />
-    <MESSAGE value="状态选择框 选中后自动查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="状态选择框 选中后自动查询" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <MESSAGE value="代码生成功能修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码生成功能修改" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/security/ShiroUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/mapper/DeptMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="150">
-            <caret line="6" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-druid.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11400">
-          <caret line="456" column="247" selection-start-line="456" selection-start-column="247" selection-end-line="456" selection-end-column="247" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/file/FileUploadUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2050">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/ProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3100">
-          <caret line="144" column="37" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/RuoYiConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="89">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
           <folding>
-            <element signature="e#1078#1079#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ResourcesConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/service/DeptServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="108" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="108" />
+        <state relative-caret-position="111">
+          <caret line="139" column="37" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/operlog/controller/OperlogController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/system/DeptMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/monitor/operlog/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="43" column="12" selection-start-line="43" selection-start-column="8" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/service/IRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="76" column="15" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/service/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/operlog/service/OperLogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/role/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/FilterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/DruidConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/datx/City.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/AddressUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/ServletUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2.jar!/com/google/code/kaptcha/impl/DefaultKaptcha.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="64" column="45" lean-forward="true" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-          <folding>
-            <element signature="e#2430#2431#0" expanded="true" />
-            <element signature="e#2501#2502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2.jar!/com/google/code/kaptcha/util/Config.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/ajax/libs/iCheck/icheck.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="197" selection-start-line="5" selection-start-column="197" selection-end-line="5" selection-end-column="197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2.jar!/com/google/code/kaptcha/Constants.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3206">
-          <caret line="31" column="31" selection-start-line="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2.jar!/com/google/code/kaptcha/Producer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2-sources.jar!/com/google/code/kaptcha/util/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2-sources.jar!/com/google/code/kaptcha/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2-sources.jar!/com/google/code/kaptcha/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/penggle/kaptcha/2.3.2/kaptcha-2.3.2-sources.jar!/com/google/code/kaptcha/impl/DefaultKaptcha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-          <folding>
-            <element signature="e#2355#2356#0" expanded="true" />
-            <element signature="e#2412#2413#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/gu_ess.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/ruoyi/gu_ess.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-531">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/ShiroConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authc/UsernamePasswordToken.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/authc/UsernamePasswordToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="183" column="11" selection-start-line="183" selection-start-column="11" selection-end-line="183" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/SecurityUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/subject/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="331" column="9" selection-start-line="331" selection-start-column="9" selection-end-line="331" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/subject/support/DelegatingSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2196">
-          <caret line="257" column="16" selection-start-line="257" selection-start-column="16" selection-end-line="257" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-254">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        <state relative-caret-position="314">
+          <caret line="132" column="10" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/CaptchaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-736">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state relative-caret-position="175">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/user/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/SystemLogUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/gu_ess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="33" column="63" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/CaptchaConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="44" />
+        <state relative-caret-position="129">
+          <caret line="44" column="72" selection-start-line="44" selection-start-column="72" selection-end-line="44" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0.jar!/org/apache/shiro/web/filter/AccessControlFilter.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/controller/GenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="194">
+          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/filter/AccessControlFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/service/IGenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/mapper/GenMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/tool/GenMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="1" column="8564" selection-start-line="1" selection-start-column="8564" selection-end-line="1" selection-end-column="8564" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/VelocityContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-584">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/vm/java/domain.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/vm/java/Controller.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/domain/TableInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="85" column="36" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="36" />
+          <folding>
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7.jar!/org/apache/velocity/Template.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../JDK/8131/JDK/src.zip!/java/util/zip/ZipEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/service/GenServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="125" column="43" selection-start-line="125" selection-start-column="43" selection-end-line="125" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/vm/sql/sql.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/GenConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="11" column="103" selection-start-line="11" selection-start-column="103" selection-end-line="11" selection-end-column="103" />
+          <folding>
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/tool/gen/util/GenUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/file/rml.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="5" selection-start-line="1" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="61" column="35" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="35" />
+        <state relative-caret-position="-1250">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/dept/dept.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="88" column="39" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
+        <state relative-caret-position="-1175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/system/menu/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="250" column="38" lean-forward="true" selection-start-line="250" selection-start-column="38" selection-end-line="250" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/menu/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/framework/web/domain/AjaxResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/monitor/job/controller/JobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-896">
+          <caret line="95" column="15" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
         </state>
       </provider>
     </entry>

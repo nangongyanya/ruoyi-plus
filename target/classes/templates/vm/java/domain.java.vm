@@ -16,7 +16,7 @@ import java.util.Date;
  * @author ${author}
  * @date ${datetime}
  */
-public class ${className} extends BaseEntity
+public class ${capitalizeClassName} extends BaseEntity
 {
 	private static final long serialVersionUID = 1L;
 	

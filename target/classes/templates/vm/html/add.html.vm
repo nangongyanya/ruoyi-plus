@@ -4,7 +4,7 @@
 <head th:include="include :: header"></head>
 <body class="white-bg">
     <div class="wrapper wrapper-content animated fadeInRight ibox-content">
-        <form class="form-horizontal m" id="form-${classname}-add">
+        <form class="form-horizontal m" id="form-${uncapitalizeClassname}-add">
 #foreach($column in $columns)
 #if($column.columnName != $primaryKey.columnName)
 			<div class="form-group">	
@@ -25,15 +25,15 @@
 	</div>
     <div th:include="include::footer"></div>
     <script type="text/javascript">
-		var prefix = ctx + "${moduleName}/${classname}"
-		$("#form-${classname}-add").validate({
+		var prefix = ctx + "${moduleName}/${uncapitalizeClassname}"
+		$("#form-${uncapitalizeClassname}-add").validate({
 			rules:{
 				xxxx:{
 					required:true,
 				},
 			},
 			submitHandler: function(form) {
-				$.operate.save(prefix + "/add", $('#form-${classname}-add').serialize());
+				$.operate.save(prefix + "/add", $('#form-${uncapitalizeClassname}-add').serialize());
 			}
 		});
 	</script>

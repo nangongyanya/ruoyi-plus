@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 /**
  * 读取代码生成相关配置
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Component
-@ConfigurationProperties(prefix = "gen")
+@ConfigurationProperties(prefix = "gen") // @ConfigurationProperties主要作用：就是绑定application.properties中的属性
 public class GenConfig
 {
     /** 作者 */

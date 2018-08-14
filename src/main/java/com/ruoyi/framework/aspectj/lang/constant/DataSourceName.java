@@ -3,7 +3,7 @@ package com.ruoyi.framework.aspectj.lang.constant;
 /**
  * 多数据源别名
  * 
- * @author ruoyi
+ * @author Rimon
  *
  */
 public class DataSourceName

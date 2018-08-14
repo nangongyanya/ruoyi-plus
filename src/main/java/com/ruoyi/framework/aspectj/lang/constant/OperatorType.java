@@ -3,7 +3,7 @@ package com.ruoyi.framework.aspectj.lang.constant;
 /**
  * 操作人类别
  * 
- * @author ruoyi
+ * @author Rimon
  *
  */
 public class OperatorType

@@ -30,7 +30,7 @@ import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
 /**
  * 权限配置加载
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Configuration
 public class ShiroConfig

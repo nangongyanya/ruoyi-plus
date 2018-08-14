@@ -10,7 +10,7 @@ import com.ruoyi.framework.aspectj.lang.constant.DataSourceName;
 /**
  * 自定义多数据源切换注解
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

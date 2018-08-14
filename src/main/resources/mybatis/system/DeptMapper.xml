@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
-PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+		PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ruoyi.project.system.dept.mapper.DeptMapper">
 
 	<resultMap type="Dept" id="DeptResult">
@@ -20,7 +20,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		<result property="updateBy"   column="update_by"   />
 		<result property="updateTime" column="update_time" />
 	</resultMap>
-	
+
 	<sql id="selectDeptVo">
         select t.dept_id, t.parent_id, t.ancestors, t.dept_name, t.order_num, t.leader, t.phone, t.email, t.status, t.create_by, t.create_time from sys_dept t
     </sql>
@@ -28,10 +28,13 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<select id="selectDeptAll" resultMap="DeptResult">
 		<include refid="selectDeptVo"/>
 	</select>
-	
+
 	<select id="selectDeptList" parameterType="Dept" resultMap="DeptResult">
-        <include refid="selectDeptVo"/>
-        <where>
+		<include refid="selectDeptVo"/>
+		<where>
+			<if test="parentId != null and parentId != 0">
+				AND parent_id = #{parentId}
+			</if>
 			<if test="deptName != null and deptName != ''">
 				AND dept_name like concat('%', #{deptName}, '%')
 			</if>
@@ -39,12 +42,12 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 				AND status = #{status}
 			</if>
 		</where>
-    </select>
-	
+	</select>
+
 	<select id="checkDeptExistUser" parameterType="Long" resultType="int">
 		select count(1) from sys_user where dept_id = #{deptId} and del_flag = '0'
 	</select>
-	
+
 	<select id="selectDeptCount" parameterType="Dept" resultType="int">
 		select count(1) from sys_dept
 		<where>
@@ -52,9 +55,9 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 			<if test="parentId != null and parentId != 0"> and parent_id = #{parentId} </if>
 		</where>
 	</select>
-	
+
 	<select id="checkDeptNameUnique" parameterType="String" resultMap="DeptResult">
-	    <include refid="selectDeptVo"/>
+		<include refid="selectDeptVo"/>
 		where dept_name=#{deptName}
 	</select>
 
@@ -64,50 +67,63 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		from sys_dept t
 		where dept_id = #{deptId}
 	</select>
-	
+
 	<insert id="insertDept" parameterType="Dept">
- 		insert into sys_dept(
- 			<if test="deptId != null and deptId != 0">dept_id,</if>
- 			<if test="parentId != null and parentId != 0">parent_id,</if>
- 			<if test="deptName != null and deptName != ''">dept_name,</if>
- 			<if test="ancestors != null and ancestors != ''">ancestors,</if>
- 			<if test="orderNum != null and orderNum != ''">order_num,</if>
- 			<if test="leader != null and leader != ''">leader,</if>
- 			<if test="phone != null and phone != ''">phone,</if>
- 			<if test="email != null and email != ''">email,</if>
- 			<if test="status != null">status,</if>
- 			<if test="createBy != null and createBy != ''">create_by,</if>
- 			create_time
- 		)values(
- 			<if test="deptId != null and deptId != 0">#{deptId},</if>
- 			<if test="parentId != null and parentId != 0">#{parentId},</if>
- 			<if test="deptName != null and deptName != ''">#{deptName},</if>
- 			<if test="ancestors != null and ancestors != ''">#{ancestors},</if>
- 			<if test="orderNum != null and orderNum != ''">#{orderNum},</if>
- 			<if test="leader != null and leader != ''">#{leader},</if>
- 			<if test="phone != null and phone != ''">#{phone},</if>
- 			<if test="email != null and email != ''">#{email},</if>
- 			<if test="status != null">#{status},</if>
- 			<if test="createBy != null and createBy != ''">#{createBy},</if>
- 			sysdate()
- 		)
+		insert into sys_dept(
+		<if test="deptId != null and deptId != 0">dept_id,</if>
+		<if test="parentId != null and parentId != 0">parent_id,</if>
+		<if test="deptName != null and deptName != ''">dept_name,</if>
+		<if test="ancestors != null and ancestors != ''">ancestors,</if>
+		<if test="orderNum != null and orderNum != ''">order_num,</if>
+		<if test="leader != null and leader != ''">leader,</if>
+		<if test="phone != null and phone != ''">phone,</if>
+		<if test="email != null and email != ''">email,</if>
+		<if test="status != null">status,</if>
+		<if test="createBy != null and createBy != ''">create_by,</if>
+		create_time
+		)values(
+		<if test="deptId != null and deptId != 0">#{deptId},</if>
+		<if test="parentId != null and parentId != 0">#{parentId},</if>
+		<if test="deptName != null and deptName != ''">#{deptName},</if>
+		<if test="ancestors != null and ancestors != ''">#{ancestors},</if>
+		<if test="orderNum != null and orderNum != ''">#{orderNum},</if>
+		<if test="leader != null and leader != ''">#{leader},</if>
+		<if test="phone != null and phone != ''">#{phone},</if>
+		<if test="email != null and email != ''">#{email},</if>
+		<if test="status != null">#{status},</if>
+		<if test="createBy != null and createBy != ''">#{createBy},</if>
+		sysdate()
+		)
 	</insert>
-	
+
 	<update id="updateDept" parameterType="Dept">
- 		update sys_dept
- 		<set>
- 			<if test="parentId != null and parentId != 0">parent_id = #{parentId},</if>
- 			<if test="deptName != null and deptName != ''">dept_name = #{deptName},</if>
- 			<if test="ancestors != null and ancestors != ''">ancestors = #{ancestors},</if>
- 			<if test="orderNum != null and orderNum != ''">order_num = #{orderNum},</if>
- 			<if test="leader != null and leader != ''">leader = #{leader},</if>
- 			<if test="phone != null and phone != ''">phone = #{phone},</if>
- 			<if test="email != null and email != ''">email = #{email},</if>
- 			<if test="status != null and status != ''">status = #{status},</if>
- 			<if test="updateBy != null and updateBy != ''">update_by = #{updateBy},</if>
- 			update_time = sysdate()
- 		</set>
- 		where dept_id = #{deptId}
+		update sys_dept
+		<set>
+			<if test="parentId != null and parentId != 0">parent_id = #{parentId},</if>
+			<if test="deptName != null and deptName != ''">dept_name = #{deptName},</if>
+			<if test="ancestors != null and ancestors != ''">ancestors = #{ancestors},</if>
+			<if test="orderNum != null and orderNum != ''">order_num = #{orderNum},</if>
+			<if test="leader != null and leader != ''">leader = #{leader},</if>
+			<if test="phone != null and phone != ''">phone = #{phone},</if>
+			<if test="email != null and email != ''">email = #{email},</if>
+			<if test="status != null and status != ''">status = #{status},</if>
+			<if test="updateBy != null and updateBy != ''">update_by = #{updateBy},</if>
+			update_time = sysdate()
+		</set>
+		where dept_id = #{deptId}
+	</update>
+
+	<update id="updateDeptChildren" parameterType="java.util.List">
+		update sys_dept set ancestors =
+		<foreach collection="depts" item="item" index="index"
+				 separator=" " open="case dept_id" close="end">
+			when #{item.deptId} then #{item.ancestors}
+		</foreach>
+		where dept_id in
+		<foreach collection="depts" item="item" index="index"
+				 separator="," open="(" close=")">
+			#{item.deptId}
+		</foreach>
 	</update>
 
 	<delete id="deleteDeptById" parameterType="Long">

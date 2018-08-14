@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import com.ruoyi.framework.aspectj.lang.annotation.Log;
 import com.ruoyi.framework.aspectj.lang.constant.BusinessType;
-import ${package}.domain.${className};
-import ${package}.service.I${className}Service;
+import ${package}.domain.${capitalizeClassName};
+import ${package}.service.I${capitalizeClassName}Service;
 import com.ruoyi.framework.web.controller.BaseController;
 import com.ruoyi.framework.web.page.TableDataInfo;
 import com.ruoyi.framework.web.domain.AjaxResult;
@@ -25,31 +25,31 @@ import com.ruoyi.framework.web.domain.AjaxResult;
  * @date ${datetime}
  */
 @Controller
-@RequestMapping("/${moduleName}/${classname}")
-public class ${className}Controller extends BaseController
+@RequestMapping("/${moduleName}/${uncapitalizeClassname}")
+public class ${capitalizeClassName}Controller extends BaseController
 {
-    private String prefix = "${moduleName}/${classname}";
+    private String prefix = "${moduleName}/${uncapitalizeClassname}";
 	
 	@Autowired
-	private I${className}Service ${classname}Service;
+	private I${capitalizeClassName}Service ${uncapitalizeClassname}Service;
 	
-	@RequiresPermissions("${moduleName}:${classname}:view")
+	@RequiresPermissions("${moduleName}:${uncapitalizeClassname}:view")
 	@GetMapping()
-	public String ${classname}()
+	public String ${uncapitalizeClassname}()
 	{
-	    return prefix + "/${classname}";
+	    return prefix + "/${uncapitalizeClassname}";
 	}
 	
 	/**
 	 * 查询${tableComment}列表
 	 */
-	@RequiresPermissions("${moduleName}:${classname}:list")
+	@RequiresPermissions("${moduleName}:${uncapitalizeClassname}:list")
 	@PostMapping("/list")
 	@ResponseBody
-	public TableDataInfo list(${className} ${classname})
+	public TableDataInfo list(${capitalizeClassName} ${uncapitalizeClassname})
 	{
 		startPage();
-        List<${className}> list = ${classname}Service.select${className}List(${classname});
+        List<${capitalizeClassName}> list = ${uncapitalizeClassname}Service.select${capitalizeClassName}List(${uncapitalizeClassname});
 		return getDataTable(list);
 	}
 	
@@ -65,13 +65,13 @@ public class ${className}Controller extends BaseController
 	/**
 	 * 新增保存${tableComment}
 	 */
-	@RequiresPermissions("${moduleName}:${classname}:add")
+	@RequiresPermissions("${moduleName}:${uncapitalizeClassname}:add")
 	@Log(title = "${tableComment}", action = BusinessType.INSERT)
 	@PostMapping("/add")
 	@ResponseBody
-	public AjaxResult addSave(${className} ${classname})
+	public AjaxResult addSave(${capitalizeClassName} ${uncapitalizeClassname})
 	{		
-		return toAjax(${classname}Service.insert${className}(${classname}));
+		return toAjax(${uncapitalizeClassname}Service.insert${capitalizeClassName}(${uncapitalizeClassname}));
 	}
 
 	/**
@@ -80,33 +80,33 @@ public class ${className}Controller extends BaseController
 	@GetMapping("/edit/{${primaryKey.attrname}}")
 	public String edit(@PathVariable("${primaryKey.attrname}") ${primaryKey.attrType} ${primaryKey.attrname}, ModelMap mmap)
 	{
-		${className} ${classname} = ${classname}Service.select${className}ById(${primaryKey.attrname});
-		mmap.put("${classname}", ${classname});
+		${capitalizeClassName} ${uncapitalizeClassname} = ${uncapitalizeClassname}Service.select${capitalizeClassName}ById(${primaryKey.attrname});
+		mmap.put("${uncapitalizeClassname}", ${uncapitalizeClassname});
 	    return prefix + "/edit";
 	}
 	
 	/**
 	 * 修改保存${tableComment}
 	 */
-	@RequiresPermissions("${moduleName}:${classname}:edit")
+	@RequiresPermissions("${moduleName}:${uncapitalizeClassname}:edit")
 	@Log(title = "${tableComment}", action = BusinessType.UPDATE)
 	@PostMapping("/edit")
 	@ResponseBody
-	public AjaxResult editSave(${className} ${classname})
+	public AjaxResult editSave(${capitalizeClassName} ${uncapitalizeClassname})
 	{		
-		return toAjax(${classname}Service.update${className}(${classname}));
+		return toAjax(${uncapitalizeClassname}Service.update${capitalizeClassName}(${uncapitalizeClassname}));
 	}
 	
 	/**
 	 * 删除${tableComment}
 	 */
-	@RequiresPermissions("${moduleName}:${classname}:remove")
+	@RequiresPermissions("${moduleName}:${uncapitalizeClassname}:remove")
 	@Log(title = "${tableComment}", action = BusinessType.DELETE)
 	@PostMapping( "/remove")
 	@ResponseBody
 	public AjaxResult remove(String ids)
 	{		
-		return toAjax(${classname}Service.delete${className}ByIds(ids));
+		return toAjax(${uncapitalizeClassname}Service.delete${capitalizeClassName}ByIds(ids));
 	}
 	
 }

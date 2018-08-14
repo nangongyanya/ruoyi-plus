@@ -3,9 +3,9 @@ package ${package}.service;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ${package}.mapper.${className}Mapper;
-import ${package}.domain.${className};
-import ${package}.service.I${className}Service;
+import ${package}.mapper.${capitalizeClassName}Mapper;
+import ${package}.domain.${capitalizeClassName};
+import ${package}.service.I${capitalizeClassName}Service;
 import com.ruoyi.common.support.Convert;
 
 /**
@@ -15,10 +15,10 @@ import com.ruoyi.common.support.Convert;
  * @date ${datetime}
  */
 @Service
-public class ${className}ServiceImpl implements I${className}Service 
+public class ${capitalizeClassName}ServiceImpl implements I${capitalizeClassName}Service
 {
 	@Autowired
-	private ${className}Mapper ${classname}Mapper;
+	private ${capitalizeClassName}Mapper ${uncapitalizeClassname}Mapper;
 
 	/**
      * 查询${tableComment}信息
@@ -27,45 +27,45 @@ public class ${className}ServiceImpl implements I${className}Service
      * @return ${tableComment}信息
      */
     @Override
-	public ${className} select${className}ById(${primaryKey.attrType} ${primaryKey.attrname})
+	public ${capitalizeClassName} select${capitalizeClassName}ById(${primaryKey.attrType} ${primaryKey.attrname})
 	{
-	    return ${classname}Mapper.select${className}ById(${primaryKey.attrname});
+	    return ${uncapitalizeClassname}Mapper.select${capitalizeClassName}ById(${primaryKey.attrname});
 	}
 	
 	/**
      * 查询${tableComment}列表
      * 
-     * @param ${classname} ${tableComment}信息
+     * @param ${uncapitalizeClassname} ${tableComment}信息
      * @return ${tableComment}集合
      */
 	@Override
-	public List<${className}> select${className}List(${className} ${classname})
+	public List<${capitalizeClassName}> select${capitalizeClassName}List(${capitalizeClassName} ${uncapitalizeClassname})
 	{
-	    return ${classname}Mapper.select${className}List(${classname});
+	    return ${uncapitalizeClassname}Mapper.select${capitalizeClassName}List(${uncapitalizeClassname});
 	}
 	
     /**
      * 新增${tableComment}
      * 
-     * @param ${classname} ${tableComment}信息
+     * @param ${uncapitalizeClassname} ${tableComment}信息
      * @return 结果
      */
 	@Override
-	public int insert${className}(${className} ${classname})
+	public int insert${capitalizeClassName}(${capitalizeClassName} ${uncapitalizeClassname})
 	{
-	    return ${classname}Mapper.insert${className}(${classname});
+	    return ${uncapitalizeClassname}Mapper.insert${capitalizeClassName}(${uncapitalizeClassname});
 	}
 	
 	/**
      * 修改${tableComment}
      * 
-     * @param ${classname} ${tableComment}信息
+     * @param ${uncapitalizeClassname} ${tableComment}信息
      * @return 结果
      */
 	@Override
-	public int update${className}(${className} ${classname})
+	public int update${capitalizeClassName}(${capitalizeClassName} ${uncapitalizeClassname})
 	{
-	    return ${classname}Mapper.update${className}(${classname});
+	    return ${uncapitalizeClassname}Mapper.update${capitalizeClassName}(${uncapitalizeClassname});
 	}
 
 	/**
@@ -75,9 +75,9 @@ public class ${className}ServiceImpl implements I${className}Service
      * @return 结果
      */
 	@Override
-	public int delete${className}ByIds(String ids)
+	public int delete${capitalizeClassName}ByIds(String ids)
 	{
-		return ${classname}Mapper.delete${className}ByIds(Convert.toStrArray(ids));
+		return ${uncapitalizeClassname}Mapper.delete${capitalizeClassName}ByIds(Convert.toStrArray(ids));
 	}
 	
 }

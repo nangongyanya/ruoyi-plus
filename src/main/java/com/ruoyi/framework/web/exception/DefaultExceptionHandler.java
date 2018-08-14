@@ -13,7 +13,7 @@ import com.ruoyi.framework.web.domain.AjaxResult;
 /**
  * 自定义异常处理器
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @RestControllerAdvice
 public class DefaultExceptionHandler

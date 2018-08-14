@@ -3,7 +3,7 @@ package com.ruoyi.framework.aspectj.lang.constant;
 /**
  * 业务操作类型
  * 
- * @author ruoyi
+ * @author Rimon
  *
  */
 public class BusinessType

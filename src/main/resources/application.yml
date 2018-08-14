@@ -1,7 +1,7 @@
 # 项目相关配置
 ruoyi:
   #名称
-  name: RuoYi
+  name: Rimon
   #版本
   version: 2.3.0
   #版权年份
@@ -102,7 +102,7 @@ shiro:
 # 代码生成
 gen: 
   # 作者
-  author: ruoyi
+  author: Rimon
   # 默认生成包路径 module 需改成自己的模块名称 如 system monitor tool
   packageName: com.ruoyi.project.module
   # 自动去除表前缀，默认是true

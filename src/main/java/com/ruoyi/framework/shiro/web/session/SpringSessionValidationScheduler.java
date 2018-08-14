@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 自定义任务调度器完成
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class SpringSessionValidationScheduler implements SessionValidationScheduler
 {

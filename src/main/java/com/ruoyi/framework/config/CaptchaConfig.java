@@ -9,7 +9,7 @@ import com.google.code.kaptcha.util.Config;
 /**
  * 验证码配置
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Configuration
 public class CaptchaConfig
@@ -42,7 +42,7 @@ public class CaptchaConfig
         Properties properties = new Properties();
         properties.setProperty("kaptcha.border", "yes");
         properties.setProperty("kaptcha.border.color", "105,179,90");
-        properties.setProperty("kaptcha.textproducer.font.color", "blue");
+        properties.setProperty("kaptcha.textproducer.font.color", "green");
         properties.setProperty("kaptcha.image.width", "160");
         properties.setProperty("kaptcha.image.height", "60");
         properties.setProperty("kaptcha.textproducer.font.size", "38");

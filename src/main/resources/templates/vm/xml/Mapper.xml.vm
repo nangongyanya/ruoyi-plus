@@ -2,20 +2,20 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="${package}.mapper.${className}Mapper">
+<mapper namespace="${package}.mapper.${capitalizeClassName}Mapper">
     
-    <resultMap type="${className}" id="${className}Result">
+    <resultMap type="${capitalizeClassName}" id="${capitalizeClassName}Result">
 #foreach ($column in $columns)
         <result property="${column.attrname}"    column="${column.columnName}"    />
 #end
     </resultMap>
 	
-	<sql id="select${className}Vo">
+	<sql id="select${capitalizeClassName}Vo">
         select#foreach($column in $columns) $column.columnName#if($velocityCount != $columns.size()),#end#end from ${tableName}
     </sql>
 	
-    <select id="select${className}List" parameterType="${className}" resultMap="${className}Result">
-        <include refid="select${className}Vo"/>
+    <select id="select${capitalizeClassName}List" parameterType="${capitalizeClassName}" resultMap="${capitalizeClassName}Result">
+        <include refid="select${capitalizeClassName}Vo"/>
         <where>  
 #foreach($column in $columns)
             <if test="$column.attrname != null and $column.attrname.trim() != ''"> and $column.columnName = #{$column.attrname}</if>
@@ -23,12 +23,12 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         </where>
     </select>
     
-    <select id="select${className}ById" parameterType="${primaryKey.attrType}" resultMap="${className}Result">
-        <include refid="select${className}Vo"/>
+    <select id="select${capitalizeClassName}ById" parameterType="${primaryKey.attrType}" resultMap="${capitalizeClassName}Result">
+        <include refid="select${capitalizeClassName}Vo"/>
         where ${primaryKey.columnName} = #{${primaryKey.attrname}}
     </select>
         
-    <insert id="insert${className}" parameterType="${className}"#if($primaryKey.extra == 'auto_increment') useGeneratedKeys="true" keyProperty="$primaryKey.attrname"#end>
+    <insert id="insert${capitalizeClassName}" parameterType="${capitalizeClassName}"#if($primaryKey.extra == 'auto_increment') useGeneratedKeys="true" keyProperty="$primaryKey.attrname"#end>
         insert into ${tableName}
 		<trim prefix="(" suffix=")" suffixOverrides=",">
 #foreach($column in $columns)
@@ -46,7 +46,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
          </trim>
     </insert>
 	 
-    <update id="update${className}" parameterType="${className}">
+    <update id="update${capitalizeClassName}" parameterType="${capitalizeClassName}">
         update ${tableName}
         <trim prefix="SET" suffixOverrides=",">
 #foreach($column in $columns)
@@ -58,11 +58,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         where ${primaryKey.columnName} = #{${primaryKey.attrname}}
     </update>
 
-	<delete id="delete${className}ById" parameterType="${primaryKey.attrType}">
+	<delete id="delete${capitalizeClassName}ById" parameterType="${primaryKey.attrType}">
         delete from ${tableName} where ${primaryKey.columnName} = #{${primaryKey.attrname}}
     </delete>
 	
-    <delete id="delete${className}ByIds" parameterType="String">
+    <delete id="delete${capitalizeClassName}ByIds" parameterType="String">
         delete from ${tableName} where ${primaryKey.columnName} in 
         <foreach item="${primaryKey.attrname}" collection="array" open="(" separator="," close=")">
             #{${primaryKey.attrname}}

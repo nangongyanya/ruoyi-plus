@@ -49,7 +49,7 @@ public class CaptchaValidateFilter extends AccessControlFilter
     protected boolean isAccessAllowed(ServletRequest request, ServletResponse response, Object mappedValue)
             throws Exception
     {
-        System.out.println("验证码验证！");
+        // System.out.println("验证码验证！");
         HttpServletRequest httpServletRequest = (HttpServletRequest) request;
         // 验证码禁用 或 不是表单提交 允许访问
         if (captchaEbabled == false || !"post".equals(httpServletRequest.getMethod().toLowerCase()))

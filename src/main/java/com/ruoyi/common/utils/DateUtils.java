@@ -8,7 +8,7 @@ import org.apache.commons.lang3.time.DateFormatUtils;
 /**
  * 时间工具类
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class DateUtils
 {

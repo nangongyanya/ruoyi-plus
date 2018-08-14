@@ -7,7 +7,7 @@ import com.ruoyi.common.utils.StringUtils;
 /**
  * 字符集工具类
  * 
- * @author ruoyi
+ * @author Rimon
  *
  */
 public class CharsetKit

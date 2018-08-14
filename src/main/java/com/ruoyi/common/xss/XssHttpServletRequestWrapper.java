@@ -8,7 +8,7 @@ import org.jsoup.safety.Whitelist;
 /**
  * XSS过滤处理
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class XssHttpServletRequestWrapper extends HttpServletRequestWrapper
 {

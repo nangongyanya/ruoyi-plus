@@ -40,7 +40,7 @@ import com.ruoyi.framework.web.domain.AjaxResult;
 /**
  * Excel相关处理
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class ExcelUtil<T>
 {

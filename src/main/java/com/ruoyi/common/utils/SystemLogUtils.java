@@ -12,7 +12,6 @@ import eu.bitwalker.useragentutils.UserAgent;
 /**
  * 记录用户日志信息
  * 
- * @author ruoyi
  * @author Rimon
  */
 public class SystemLogUtils

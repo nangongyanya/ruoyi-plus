@@ -11,7 +11,7 @@ import org.springframework.util.ResourceUtils;
 /**
  * 获取地址类
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class AddressUtils
 {

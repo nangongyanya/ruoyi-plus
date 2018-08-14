@@ -11,7 +11,7 @@ import com.ruoyi.framework.config.RuoYiConfig;
 /**
  * 文件上传工具类
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class FileUploadUtils
 {

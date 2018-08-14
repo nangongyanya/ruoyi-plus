@@ -7,7 +7,7 @@ import com.ruoyi.framework.web.domain.BaseEntity;
 /**
  * 角色对象 sys_menu
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class Menu extends BaseEntity
 {

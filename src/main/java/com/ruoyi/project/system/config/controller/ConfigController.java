@@ -23,7 +23,7 @@ import com.ruoyi.project.system.config.service.IConfigService;
 /**
  * 参数配置 信息操作处理
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Controller
 @RequestMapping("/system/config")

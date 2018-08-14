@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c68724be-c8a5-4bfd-b2c3-2d48fbffbf62" name="Default" comment="代码生成功能修改">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/RuoYiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/RuoYiApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/RuoYiServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/RuoYiServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/CommonMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/CommonMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/PermissionConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/PermissionConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/ScheduleConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/ScheduleConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/ShiroConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/ShiroConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/UserConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/constant/UserConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/DemoModeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/DemoModeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/base/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/base/BaseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/file/FileNameLengthLimitExceededException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/file/FileNameLengthLimitExceededException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/file/InvalidExtensionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/file/InvalidExtensionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/job/TaskException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/job/TaskException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/CaptchaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/CaptchaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/RoleBlockedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/RoleBlockedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserBlockedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserBlockedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserNotExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserNotExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserPasswordNotMatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserPasswordNotMatchException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserPasswordRetryLimitCountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserPasswordRetryLimitCountException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserPasswordRetryLimitExceedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/exception/user/UserPasswordRetryLimitExceedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/support/CharsetKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/support/CharsetKit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/support/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/support/Convert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/support/StrFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/support/StrFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/AddressUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/AddressUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/DateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/IpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/IpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/LogUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/LogUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/MapDataUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/MapDataUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/MessageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/MessageUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/ServletUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/ServletUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/SystemLogUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/SystemLogUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/TreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/TreeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/bean/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/bean/BeanUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/file/FileUploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/file/FileUploadUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/file/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/file/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/http/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/http/HttpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/poi/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/poi/ExcelUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/security/PermissionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/security/PermissionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/security/ShiroUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/security/ShiroUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/spring/SpringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/utils/spring/SpringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/xss/XssFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/xss/XssFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/xss/XssHttpServletRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/common/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/DsAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/DsAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/LogAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Ds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/framework/aspectj/lang/annotation/Ds.java" afterDir="false" />
@@ -202,29 +158,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/java/domain.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/java/domain.java.vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/sql/sql.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/sql/sql.vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/xml/Mapper.xml.vm" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/xml/Mapper.xml.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/SystemLogUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/SystemLogUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/CaptchaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/CaptchaConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/mapper/DeptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/mapper/DeptMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/service/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/service/DeptServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/controller/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/controller/GenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/controller/GenController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/domain/TableInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/domain/TableInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/service/GenServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/service/GenServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/util/GenUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/util/GenUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/system/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/system/DeptMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/html/add.html.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/html/add.html.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/html/edit.html.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/html/edit.html.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/html/list.html.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/html/list.html.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/java/Controller.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/java/Controller.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/java/Mapper.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/java/Mapper.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/java/Service.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/java/Service.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/java/ServiceImpl.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/java/ServiceImpl.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/java/domain.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/java/domain.java.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/sql/sql.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/sql/sql.vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/vm/xml/Mapper.xml.vm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/vm/xml/Mapper.xml.vm" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -804,7 +737,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534246903522</updated>
-      <workItem from="1534246905476" duration="7139000" />
+      <workItem from="1534246905476" duration="7381000" />
     </task>
     <task id="LOCAL-00001" summary="代码生成功能修改">
       <created>1534251451547</created>
@@ -813,11 +746,32 @@
       <option name="project" value="LOCAL" />
       <updated>1534251451547</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="constant修改">
+      <created>1534254634114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534254634114</updated>
+    </task>
+    <task id="LOCAL-00003" summary="common修改">
+      <created>1534254717178</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534254717178</updated>
+    </task>
+    <task id="LOCAL-00004" summary="framework修改">
+      <created>1534254825292</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534254825292</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7139000" />
+    <option name="totallyTimeSpent" value="7381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -900,7 +854,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="代码生成功能修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码生成功能修改" />
+    <MESSAGE value="constant修改" />
+    <MESSAGE value="common修改" />
+    <MESSAGE value="framework修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="framework修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ruoyi/project/system/dept/mapper/DeptMapper.java">

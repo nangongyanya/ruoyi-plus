@@ -5,7 +5,7 @@ import com.ruoyi.framework.web.domain.BaseEntity;
 /**
  * 公告表 sys_notice
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class Notice extends BaseEntity
 {

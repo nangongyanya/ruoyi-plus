@@ -6,7 +6,7 @@ import com.ruoyi.framework.web.domain.BaseEntity;
 /**
  * 字典类型对象 sys_dict_type
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class DictType extends BaseEntity
 {

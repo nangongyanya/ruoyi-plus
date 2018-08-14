@@ -7,7 +7,7 @@ import com.ruoyi.project.tool.gen.domain.TableInfo;
 /**
  * 代码生成 数据层
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public interface GenMapper
 {

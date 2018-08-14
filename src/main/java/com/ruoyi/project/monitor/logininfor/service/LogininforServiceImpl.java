@@ -10,7 +10,7 @@ import com.ruoyi.project.monitor.logininfor.mapper.LogininforMapper;
 /**
  * 系统访问日志情况信息 服务层处理
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Service
 public class LogininforServiceImpl implements ILogininforService

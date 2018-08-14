@@ -10,7 +10,7 @@ import com.ruoyi.project.monitor.operlog.mapper.OperLogMapper;
 /**
  * 操作日志 服务层处理
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Service
 public class OperLogServiceImpl implements IOperLogService

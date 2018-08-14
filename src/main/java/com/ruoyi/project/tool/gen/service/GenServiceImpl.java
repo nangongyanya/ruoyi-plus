@@ -26,7 +26,7 @@ import com.ruoyi.project.tool.gen.util.VelocityInitializer;
 /**
  * 代码生成 服务层处理
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Service
 public class GenServiceImpl implements IGenService
@@ -98,8 +98,8 @@ public class GenServiceImpl implements IGenService
     {
         // 表名转换成Java属性名
         String className = GenUtils.tableToJava(table.getTableName());
-        table.setClassName(className);
-        table.setClassname(StringUtils.uncapitalize(className));
+        table.setCapitalizeClassName(className);
+        table.setUncapitalizeClassname(StringUtils.uncapitalize(className));
         // 列信息
         table.setColumns(GenUtils.transColums(columns));
         // 设置主键

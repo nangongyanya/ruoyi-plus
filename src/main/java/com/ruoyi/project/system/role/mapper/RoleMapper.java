@@ -6,7 +6,7 @@ import com.ruoyi.project.system.role.domain.Role;
 /**
  * 角色表 数据层
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public interface RoleMapper
 {

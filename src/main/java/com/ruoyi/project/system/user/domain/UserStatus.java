@@ -3,7 +3,7 @@ package com.ruoyi.project.system.user.domain;
 /**
  * 用户状态
  * 
- * @author ruoyi
+ * @author Rimon
  *
  */
 public enum UserStatus

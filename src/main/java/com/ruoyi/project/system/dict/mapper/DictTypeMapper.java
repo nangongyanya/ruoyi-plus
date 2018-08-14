@@ -7,7 +7,7 @@ import com.ruoyi.project.system.dict.domain.DictType;
 /**
  * 字典表 数据层
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Mapper
 public interface DictTypeMapper

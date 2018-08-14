@@ -22,7 +22,7 @@ import com.ruoyi.project.system.dict.service.IDictDataService;
 /**
  * 数据字典信息
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Controller
 @RequestMapping("/system/dict/data")

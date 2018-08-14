@@ -9,7 +9,7 @@ import com.ruoyi.framework.web.controller.BaseController;
 /**
  * swagger 接口
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Controller
 @RequestMapping("/tool/swagger")

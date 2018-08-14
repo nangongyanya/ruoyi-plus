@@ -6,7 +6,7 @@ import com.ruoyi.project.system.dict.domain.DictType;
 /**
  * 字典 业务层
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public interface IDictTypeService
 {

@@ -8,7 +8,7 @@ import com.ruoyi.project.system.dept.domain.Dept;
 /**
  * 部门管理 服务层
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public interface IDeptService
 {

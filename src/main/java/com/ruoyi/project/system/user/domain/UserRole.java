@@ -3,7 +3,7 @@ package com.ruoyi.project.system.user.domain;
 /**
  * 用户和角色关联 sys_user_role
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class UserRole
 {

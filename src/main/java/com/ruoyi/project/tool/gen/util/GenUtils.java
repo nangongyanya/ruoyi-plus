@@ -14,7 +14,7 @@ import com.ruoyi.project.tool.gen.domain.TableInfo;
 /**
  * 代码生成器 工具类
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class GenUtils
 {
@@ -63,11 +63,11 @@ public class GenUtils
         velocityContext.put("tableName", table.getTableName());
         velocityContext.put("tableComment", replaceKeyword(table.getTableComment()));
         velocityContext.put("primaryKey", table.getPrimaryKey());
-        velocityContext.put("className", table.getClassName());
-        velocityContext.put("classname", table.getClassname());
+        velocityContext.put("capitalizeClassName", table.getCapitalizeClassName());
+        velocityContext.put("uncapitalizeClassname", table.getUncapitalizeClassname());
         velocityContext.put("moduleName", GenUtils.getModuleName(packageName));
         velocityContext.put("columns", table.getColumns());
-        velocityContext.put("package", packageName + "." + table.getClassname());
+        velocityContext.put("package", packageName + "." + table.getUncapitalizeClassname());
         velocityContext.put("author", GenConfig.getAuthor());
         velocityContext.put("datetime", DateUtils.getDate());
         return velocityContext;
@@ -90,7 +90,7 @@ public class GenUtils
         templates.add("templates/vm/html/list.html.vm");
         templates.add("templates/vm/html/add.html.vm");
         templates.add("templates/vm/html/edit.html.vm");
-        templates.add("templates/vm/sql/sql.vm");
+        //templates.add("templates/vm/sql/sql.vm");
         return templates;
     }
 
@@ -116,9 +116,9 @@ public class GenUtils
     public static String getFileName(String template, TableInfo table, String moduleName)
     {
         // 小写类名
-        String classname = table.getClassname();
+        String classname = table.getUncapitalizeClassname();
         // 大写类名
-        String className = table.getClassName();
+        String className = table.getCapitalizeClassName();
         String javaPath = PROJECT_PATH + "/" + moduleName + "/";
         String mybatisPath = MYBATIS_PATH + "/" + moduleName + "/" + className;
         String htmlPath = TEMPLATES_PATH + "/" + moduleName + "/" + classname;

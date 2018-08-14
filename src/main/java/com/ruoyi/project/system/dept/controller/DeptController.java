@@ -22,7 +22,7 @@ import com.ruoyi.project.system.dept.service.IDeptService;
 /**
  * 部门信息
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Controller
 @RequestMapping("/system/dept")

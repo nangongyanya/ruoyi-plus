@@ -3,7 +3,7 @@ package com.ruoyi.project.tool.gen.domain;
 /**
  * ry数据库表列信息
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class ColumnInfo
 {

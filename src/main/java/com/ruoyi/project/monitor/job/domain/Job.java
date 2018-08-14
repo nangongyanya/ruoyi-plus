@@ -9,7 +9,7 @@ import com.ruoyi.framework.web.domain.BaseEntity;
 /**
  * 定时任务调度信息 sys_job
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class Job extends BaseEntity implements Serializable
 {

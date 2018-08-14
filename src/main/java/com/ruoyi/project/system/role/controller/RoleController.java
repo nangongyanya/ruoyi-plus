@@ -24,7 +24,7 @@ import com.ruoyi.project.system.role.service.IRoleService;
 /**
  * 角色信息
  * 
- * @author ruoyi
+ * @author Rimon
  */
 @Controller
 @RequestMapping("/system/role")

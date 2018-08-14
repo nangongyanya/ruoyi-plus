@@ -7,7 +7,7 @@ import com.ruoyi.project.system.role.domain.Role;
 /**
  * 角色业务层
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public interface IRoleService
 {

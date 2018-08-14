@@ -6,7 +6,7 @@ import com.ruoyi.project.system.post.domain.Post;
 /**
  * 岗位信息 数据层
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public interface PostMapper
 {

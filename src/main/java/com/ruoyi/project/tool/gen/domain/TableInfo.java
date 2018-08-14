@@ -7,7 +7,7 @@ import com.ruoyi.framework.web.domain.BaseEntity;
 /**
  * ry 数据库表
  * 
- * @author ruoyi
+ * @author Rimon
  */
 public class TableInfo extends BaseEntity
 {
@@ -26,10 +26,10 @@ public class TableInfo extends BaseEntity
     private List<ColumnInfo> columns;
 
     /** 类名(第一个字母大写) */
-    private String className;
+    private String capitalizeClassName;
 
     /** 类名(第一个字母小写) */
-    private String classname;
+    private String uncapitalizeClassname;
 
     public String getTableName()
     {
@@ -71,24 +71,24 @@ public class TableInfo extends BaseEntity
         this.columns = columns;
     }
 
-    public String getClassName()
+    public String getCapitalizeClassName()
     {
-        return className;
+        return capitalizeClassName;
     }
 
-    public void setClassName(String className)
+    public void setCapitalizeClassName(String className)
     {
-        this.className = className;
+        this.capitalizeClassName = className;
     }
 
-    public String getClassname()
+    public String getUncapitalizeClassname()
     {
-        return classname;
+        return uncapitalizeClassname;
     }
 
-    public void setClassname(String classname)
+    public void setUncapitalizeClassname(String uncapitalizeClassname)
     {
-        this.classname = classname;
+        this.uncapitalizeClassname = uncapitalizeClassname;
     }
 
     public ColumnInfo getPrimaryKey()
@@ -105,7 +105,7 @@ public class TableInfo extends BaseEntity
     public String toString()
     {
         return "TableInfo [tableName=" + tableName + ", tableComment=" + tableComment + ", primaryKey=" + primaryKey
-                + ", columns=" + columns + ", className=" + className + ", classname=" + classname + "]";
+                + ", columns=" + columns + ", capitalizeClassName=" + capitalizeClassName + ", uncapitalizeClassname=" + uncapitalizeClassname + "]";
     }
 
 }

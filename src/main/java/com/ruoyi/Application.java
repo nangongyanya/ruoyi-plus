@@ -12,12 +12,12 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  */
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
 @MapperScan("com.ruoyi.project.*.*.mapper")
-public class RuoYiApplication
+public class Application
 {
     public static void main(String[] args)
     {
         // System.setProperty("spring.devtools.restart.enabled", "false");
-        SpringApplication.run(RuoYiApplication.class, args);
+        SpringApplication.run(Application.class, args);
         System.out.println("  ____    _____      _      ____    _____     ____    _   _    ____    ____   _____   ____    ____      _   _   _ \n" +
                 " / ___|  |_   _|    / \\    |  _ \\  |_   _|   / ___|  | | | |  / ___|  / ___| | ____| / ___|  / ___|    | | | | | |\n" +
                 " \\___ \\    | |     / _ \\   | |_) |   | |     \\___ \\  | | | | | |     | |     |  _|   \\___ \\  \\___ \\    | | | | | |\n" +
